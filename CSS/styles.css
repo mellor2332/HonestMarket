@@ -12,7 +12,6 @@ E6D3A3
 52528C
 
 }*/
-/*************** TITLE BAR ******************/
 body {
   background-color: #0e3353;
   font-family: "Montserrat";
@@ -22,10 +21,15 @@ body {
   padding: 7% 15% 0 15%;
 }
 
-.navbar {
-  padding-bottom: 4rem;
+.container-fluid-body {
+  padding: 7% 15% 7% 15%;
 }
 
+.container-fluid-card {
+  padding: 0 15% 7% 15%;
+}
+
+/*************** TITLE BAR ******************/
 .intro-picture {
   width: 5%;
   margin-right: 20px;
@@ -148,11 +152,158 @@ body {
   position: relative;
 }
 
+/*************** MISSION SECTION ******************/
+#mission {
+  background-color: #ffffff;
+  bottom: 200px;
+  text-align: center;
+}
+
+.ion-icon {
+  font-size: 50px;
+}
+
+.mission-header {
+  font-family: "Raleway";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0e3353;
+  line-height: 1;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.mission-header-narrow {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #0e3353;
+  text-align: center;
+}
+
+.mission-header-text {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #71716f;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.mission-body-title {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 200;
+  color: #0e3353;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.mission-body-text {
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #71716f;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*************** PRODUCTS SECTION ******************/
+#products {
+  color: #fff;
+}
+
+.life-card {
+  background-color: #7C9EB2;
+  padding: 7% 5%;
+}
+
+.card-header {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #71716f;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-logo {
+  border-radius: 100%;
+  margin-left: 75px;
+}
+
+.life-image-container {
+  position: relative;
+}
+
+.life-image0 {
+  position: absolute;
+  width: 20%;
+
+}
+
+.life-image1 {
+  position: absolute;
+  width: 20%;
+  top: 125px;
+}
+
+.life-image2 {
+  position: absolute;
+  width: 20%;
+  top: 250px;
+}
+
+.btn-success {
+  background: linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+  background-color: #b8e356;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  padding: 11px 25px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-success:hover {
+  background: linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+  background-color: #a5cc52;
+  text-decoration: none;
+}
+
+.life-image {
+  width: 30%;
+  padding: 20px auto 50px auto;
+}
+
+/*************** FOOTER SECTION ******************/
+#footer {
+  background-color: #fff;
+  text-align: center;
+  border-style: none;
+}
+
+.social-icons {
+  margin: 20px 5px;
+}
+
+.copyright-footer-text {
+  color: #8f8f8f;
+}
+
 /*************** MEDIA RESPONSIVENESS ******************/
 @media (max-width: 1028px) {
-  body{
+  body {
     text-align: center;
   }
+
   .intro-picture {
     width: 20%;
     margin: 0 auto 0 auto;
